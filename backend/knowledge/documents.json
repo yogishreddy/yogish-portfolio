@@ -1,0 +1,47 @@
+[
+  {
+    "id": "profile",
+    "title": "Yogish Profile",
+    "content": "Yogish is a Cloud and DevOps Engineer working with cloud infrastructure, CI/CD systems and automation. His current focus areas include Cloud Infrastructure, DevOps and CI/CD, AI Engineering, Agentic AI and Platform Engineering."
+  },
+  {
+    "id": "experience-accenture",
+    "title": "Accenture Experience",
+    "content": "Yogish works at Accenture in a Cloud and DevOps role. His work involves CI/CD infrastructure and Jenkins / CloudBees environments, including managed controllers, agents, AWS infrastructure and automation. Technologies associated with this experience include Jenkins, CloudBees CI, AWS, GitHub and CI/CD."
+  },
+  {
+    "id": "project-ai-sre",
+    "title": "AI SRE Platform",
+    "content": "AI SRE Platform is an agentic AI system being built by Yogish to investigate CI/CD incidents, analyze failures, gather evidence and assist with safe remediation. The planned technology stack includes LangGraph, Jenkins, AWS and Kubernetes."
+  },
+  {
+    "id": "project-ai-portfolio",
+    "title": "AI Portfolio Agent",
+    "content": "AI Portfolio Agent is an AI-native personal portfolio capable of answering questions about Yogish's experience, skills, projects and technical work using grounded personal knowledge. The project uses a Next.js frontend, FastAPI backend and Gemini, with RAG and LangGraph planned."
+  },
+  {
+    "id": "project-graphiccore",
+    "title": "GraphicCore AI",
+    "content": "GraphicCore AI is a planned AI-powered discovery platform for manga, manhwa, manhua and light novels. The concept includes intelligent recommendations and technologies such as AI, RAG, React and Python."
+  },
+  {
+    "id": "skills-cloud",
+    "title": "Cloud Skills",
+    "content": "Yogish's cloud technologies include AWS, Amazon EC2, Amazon ECR and AWS Systems Manager SSM."
+  },
+  {
+    "id": "skills-devops",
+    "title": "DevOps Skills",
+    "content": "Yogish's DevOps technologies include Jenkins, CloudBees CI, GitHub, CI/CD and Docker."
+  },
+  {
+    "id": "skills-ai",
+    "title": "AI Skills",
+    "content": "Yogish is learning and building with LLMs, RAG, LangGraph, Agentic AI and AI APIs."
+  },
+  {
+    "id": "skills-development",
+    "title": "Development Skills",
+    "content": "Yogish's development technologies include Python, TypeScript, React and FastAPI."
+  }
+]
