@@ -1,11 +1,25 @@
-import requests
+import os
+
+from dotenv import load_dotenv
+from google import genai
 
 
-OLLAMA_URL = "http://localhost:11434/api/chat"
-MODEL = "qwen3:8b"
+load_dotenv()
+
+
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+
+if not GEMINI_API_KEY:
+    raise RuntimeError("GEMINI_API_KEY is not configured")
+
+
+client = genai.Client(api_key=GEMINI_API_KEY)
+
+GEMINI_MODEL = "gemini-3.5-flash-lite"
 
 
 def rewrite_query(question, history):
+
     if not history:
         return question
 
@@ -23,6 +37,7 @@ Your job is to rewrite the user's current question into a
 standalone search query that can be used for semantic retrieval.
 
 Use the conversation history only to resolve references such as:
+
 - it
 - they
 - this
@@ -41,34 +56,26 @@ Do not add information that is not present in the conversation.
 If the current question is already standalone, return it unchanged.
 
 Conversation history:
+
 {history_text}
 
 Current question:
+
 {question}
 
 Return ONLY the rewritten standalone search query.
 """
 
-    response = requests.post(
-        OLLAMA_URL,
-        json={
-            "model": MODEL,
-            "messages": [
-                {
-                    "role": "user",
-                    "content": prompt,
-                }
-            ],
-            "stream": False,
-        },
+    response = client.models.generate_content(
+        model=GEMINI_MODEL,
+        contents=prompt,
     )
 
-    response.raise_for_status()
-
-    return response.json()["message"]["content"].strip()
+    return response.text.strip()
 
 
 if __name__ == "__main__":
+
     history = [
         {
             "role": "user",
@@ -87,7 +94,7 @@ if __name__ == "__main__":
 
     question = "Why is it useful?"
 
-    print("Calling local Qwen3...")
+    print("Calling Gemini...")
 
     rewritten = rewrite_query(question, history)
 
