@@ -47,7 +47,7 @@ export default function Home() {
     ]);
 
     try {
-      const res = await fetch("http://localhost:8000/chat", {
+      const res = await fetch("https://yogishreddy.onrender.com/chat", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
