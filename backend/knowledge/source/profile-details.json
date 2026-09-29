@@ -1,0 +1,440 @@
+{
+  "profile": {
+    "name": "Yogish Reddy Dwarampudi",
+    "professional_identity": "Cloud and DevOps Engineer",
+    "current_role": "Associate Software Engineer",
+    "current_company": "Accenture",
+    "joined_company": "September 30, 2024",
+    "location": "Bengaluru, Karnataka, India",
+    "professional_focus": [
+      "Cloud Infrastructure",
+      "DevOps",
+      "CI/CD",
+      "Platform Engineering",
+      "AI Engineering",
+      "Agentic AI"
+    ],
+    "career_direction": "Yogish wants to build on his Cloud and DevOps foundation by developing advanced products using AI and Agentic AI. He is interested in systems where a user can provide a single input and an agentic system can complete the intended task with minimal manual intervention.",
+    "long_term_goal": "Become an engineer who can architect a product at a high level, quickly produce an MVP, communicate the architecture and capabilities concisely, understand security considerations and limitations, and build products capable of serving millions of users."
+  },
+
+  "education": {
+    "bachelors": {
+      "degree": "Bachelor of Technology",
+      "field": "Computer Science",
+      "institution": "NBKR Institute of Science and Technology",
+      "location": "Nellore, Andhra Pradesh, India",
+      "period": "2020-2024",
+      "final_grade": "8.0/10"
+    },
+    "higher_secondary": {
+      "qualification": "MPC",
+      "institution": "Narayana Junior College",
+      "location": "Nellore, Andhra Pradesh, India",
+      "period": "2018-2020"
+    }
+  },
+
+  "professional_experience": {
+    "company": "Accenture",
+    "role": "Associate Software Engineer",
+    "period": "September 2024 - Present",
+    "team": "CloudBees CI",
+    "responsibilities_context": "Yogish works as part of a CloudBees CI team supporting a production Jenkins platform. He is still an Associate Software Engineer and has been working on the project for approximately 1 year and 3 months based on the information provided.",
+    "ownership_context": "Yogish has participated in and supported major platform activities, validations, upgrades, troubleshooting and operational work. Some larger implementations are performed by senior team members, and Yogish has learned by observing and assisting them. The knowledge base should not represent him as the sole architect or owner of the entire platform."
+  },
+
+  "accenture_platform": {
+    "lines_of_business": "Approximately 9",
+    "managed_controllers": "Approximately 300",
+    "daily_builds": "Approximately 3,000",
+    "agent_types": [
+      {
+        "type": "Static agents",
+        "description": "Virtual machines running Windows or Linux and maintained as part of the Jenkins environment."
+      },
+      {
+        "type": "Ephemeral agents",
+        "description": "Agents dynamically created through Kubernetes and using Docker images."
+      }
+    ]
+  },
+
+  "accenture_responsibilities": {
+    "jenkins_and_cloudbees": [
+      "Help users run Jenkins pipelines successfully.",
+      "Troubleshoot Jenkins environment issues.",
+      "Investigate agent selection errors.",
+      "Validate agent connectivity.",
+      "Help troubleshoot memory issues while creating Kubernetes pod agents.",
+      "Help users add credentials for GitHub and other third-party services.",
+      "Configure or guide users through secret text credentials such as those used for SonarQube.",
+      "Support managed controller access-control processes.",
+      "Guide users through the process of obtaining access to managed controllers.",
+      "Track work using Jira stories and tasks.",
+      "Work with ServiceNow service requests and incidents."
+    ],
+    "platform_upgrades": {
+      "frequency": "Quarterly",
+      "activities": [
+        "Operations Center upgrades",
+        "Agent upgrades",
+        "Plugin upgrades",
+        "CJOC upgrades",
+        "Managed controller upgrades",
+        "Validation after upgrades",
+        "Agent connectivity validation",
+        "Plugin version validation"
+      ]
+    },
+    "security_and_risk_remediation": {
+      "description": "The CloudBees CI environment contains multiple Windows and Linux virtual machines used by Jenkins users. These machines contain software required for builds. When vulnerabilities are reported, the team performs appropriate remediation because the infrastructure is managed by the team.",
+      "activities": [
+        "Security risk remediation",
+        "Software vulnerability remediation",
+        "Validation after remediation"
+      ]
+    },
+    "docker_and_images": {
+      "activities": [
+        "Build Docker images used by Jenkins environments.",
+        "Perform quarterly Docker image updates.",
+        "Remove older vulnerable image versions.",
+        "Support Docker images used by ephemeral Kubernetes agents."
+      ]
+    },
+    "kubernetes_and_eks": {
+      "activities": [
+        "Work with Kubernetes-based ephemeral Jenkins agents.",
+        "Monitor EKS pods.",
+        "Use Datadog to monitor pod health.",
+        "Participate in AWS EKS backup and restore activities.",
+        "Use cloud-native restore methods when required for builds or jobs."
+      ]
+    },
+    "automation": {
+      "description": "Yogish has created and uses Jenkins build-pipeline automations for operational reporting and data collection.",
+      "examples": [
+        "Search CJOC and managed controller build console output for specific keywords.",
+        "Collect matching information.",
+        "Publish results and reports.",
+        "Use various Jenkins automation jobs for different operational data and reporting purposes."
+      ],
+      "experience_context": "Yogish has used and worked with these automation jobs regularly, while major automation implementations have often involved senior team members."
+    },
+    "license_and_cleanup": [
+      "Identify users who are no longer actively using the platform.",
+      "Support license recovery by identifying access that can be revoked.",
+      "Help reduce unnecessary license consumption.",
+      "Support cleanup of inactive controllers.",
+      "Support cleanup of unnecessary jobs."
+    ]
+  },
+
+  "skills": {
+    "cloud": {
+      "level": "Strong professional",
+      "technologies": [
+        "AWS",
+        "Amazon EC2",
+        "Amazon EKS",
+        "Amazon ECR",
+        "AWS Systems Manager",
+        "AWS backup and restore",
+        "Kubernetes workloads"
+      ],
+      "context": "Professional Cloud experience primarily comes from the CloudBees CI environment."
+    },
+    "gcp": {
+      "level": "Strong personal learning",
+      "technologies": [
+        "Google Cloud Platform",
+        "Google Cloud data engineering"
+      ],
+      "context": "GCP knowledge is primarily developed through certifications and personal learning/projects."
+    },
+    "devops": {
+      "level": "Strong professional",
+      "technologies": [
+        "Jenkins",
+        "CloudBees CI",
+        "CI/CD",
+        "Docker",
+        "Kubernetes",
+        "Amazon EKS",
+        "GitHub"
+      ],
+      "working_knowledge": [
+        "Terraform",
+        "Helm"
+      ]
+    },
+    "programming": {
+      "python": "Strong professional",
+      "bash": "Strong professional",
+      "java": "Basic professional",
+      "typescript": "Basic / learning",
+      "javascript": "Basic / learning",
+      "react": "Basic / learning",
+      "php": "Academic/project experience",
+      "mysql": "Academic/project experience"
+    },
+    "security": {
+      "level": "Basic personal learning",
+      "technologies_and_concepts": [
+        "Ethical hacking",
+        "Penetration testing",
+        "Black-box testing",
+        "Kali Linux",
+        "Nmap",
+        "Metasploit Framework",
+        "Burp Suite",
+        "Wireshark",
+        "OWASP",
+        "Cryptography",
+        "Windows PowerShell",
+        "Python security scripting"
+      ]
+    },
+    "ai": {
+      "level": "Strong personal learning and project development",
+      "technologies": [
+        "LLMs",
+        "RAG",
+        "LangGraph",
+        "Agentic AI",
+        "Gemini APIs",
+        "Gemini embeddings",
+        "Gemini Live",
+        "AI application development"
+      ],
+      "context": "AI technologies are currently part of Yogish's personal learning and project development rather than professional production experience."
+    }
+  },
+
+  "internship": {
+    "company": "Supraja Technologies",
+    "role": "Cybersecurity Intern",
+    "duration": "8 weeks",
+    "selection": "Yogish was selected for the internship after participating in an approximately 8-hour Capture the Flag competition held on the final day of a three-day cybersecurity event.",
+    "experience": [
+      "Ethical hacking",
+      "Penetration testing",
+      "Black-box testing",
+      "Kali Linux virtual machines",
+      "Bash commands",
+      "Windows PowerShell",
+      "Python scripts",
+      "Cryptography",
+      "OWASP concepts",
+      "Nmap",
+      "Metasploit Framework",
+      "Burp Suite",
+      "Wireshark"
+    ]
+  },
+
+  "college_activities": {
+    "ieee": {
+      "duration": "Approximately 3 years",
+      "role": "Newsletter and Reporting Team Lead",
+      "team_size_led": 8,
+      "responsibilities": [
+        "Document technical papers.",
+        "Document technology news.",
+        "Prepare event-related reports.",
+        "Organize IEEE events.",
+        "Coordinate with team leads.",
+        "Work with the team on multi-day events."
+      ],
+      "cybersecurity_event": "Yogish's IEEE team organized a three-day cybersecurity event. The final day included an approximately 8-hour Capture the Flag competition."
+    },
+    "student_developer_activity": {
+      "description": "Yogish participated in a student developer club that provided opportunities to attend Google-hosted and technology-company programs and gain exposure to how technology companies operate.",
+      "activities": [
+        "Attended a full-day Microsoft event at the World Trade Center in Chennai.",
+        "Attended a Microsoft AI-focused event in Bengaluru."
+      ],
+      "context": "Yogish participated primarily as a student attendee and did not make significant technical contributions to the organization."
+    }
+  },
+
+  "college_projects": {
+    "grey_wolf_algorithm": {
+      "title": "Grey Wolf Algorithm for Wireless Sensor Networking",
+      "status": "Completed",
+      "team_size": 4,
+      "language": "Python",
+      "tool": "Network Simulator",
+      "contribution": "Yogish worked on the Python implementation of the Grey Wolf Algorithm.",
+      "description": "The project used the Grey Wolf Optimization algorithm to find efficient paths between wireless sensors and a receiver. The objective was to optimize path selection with lower latency and lower cost. When a sensor was unavailable or damaged, the approach could avoid the inactive sensor and select an active alternative path."
+    },
+    "college_website": {
+      "title": "College Website",
+      "status": "Completed",
+      "type": "Team project",
+      "technologies": [
+        "PHP",
+        "MySQL"
+      ],
+      "description": "A college portal designed for students and parents to log in and access academic and fee-related information.",
+      "features": [
+        "Student login",
+        "Parent login",
+        "Current academic year",
+        "Branch information",
+        "Student details",
+        "Mid-term marks",
+        "Semester marks",
+        "Fee payment information",
+        "Semester balance information",
+        "Other fee details"
+      ],
+      "contribution": "Yogish worked on the backend and database functionality used to retrieve student academic and fee records.",
+      "database_context": "The project used sample data rather than the college's original production database."
+    }
+  },
+
+  "projects": {
+    "ai_portfolio_agent": {
+      "title": "AI Portfolio Agent",
+      "status": "Building / evolving",
+      "description": "An AI-native personal portfolio that can answer questions about Yogish's experience, skills, projects and technical work using grounded personal knowledge.",
+      "implemented": [
+        "Next.js frontend",
+        "FastAPI backend",
+        "Gemini API",
+        "Gemini embeddings",
+        "Knowledge base",
+        "Vector embeddings",
+        "Cosine similarity retrieval",
+        "RAG retrieval",
+        "Conversation history",
+        "Query rewriting for follow-up questions",
+        "Streaming responses",
+        "Retrieved source information",
+        "GitHub-based development",
+        "Render deployment"
+      ],
+      "current_development": [
+        "Expanding the knowledge base",
+        "Improving retrieval quality",
+        "Testing recruiter-oriented questions",
+        "Exploring Gemini Live and voice interaction"
+      ],
+      "status_context": "The portfolio has a working deployed MVP but is intentionally still being improved and expanded."
+    },
+    "ai_sre_platform": {
+      "title": "AI SRE Platform",
+      "status": "Building / early development",
+      "current_work": [
+        "Created a local Jenkins environment.",
+        "Tested Jenkins builds.",
+        "Experimented with Docker images.",
+        "Performed SonarQube security testing."
+      ],
+      "planned_direction": [
+        "Agentic AI",
+        "CI/CD incident investigation",
+        "Failure analysis",
+        "Evidence gathering",
+        "Safe remediation assistance",
+        "LangGraph",
+        "RAG",
+        "AWS",
+        "Kubernetes"
+      ],
+      "implementation_context": "The AI agent functionality itself has not yet been implemented. The project is currently focused on establishing and testing the CI/CD environment."
+    },
+    "graphiccore_ai": {
+      "title": "GraphicCore AI",
+      "status": "Concept",
+      "description": "A conceptual AI-powered entertainment platform that understands user input and provides recommendations and responses based on what the user is looking for.",
+      "interaction": [
+        "Text input",
+        "Potential voice input"
+      ],
+      "technology_status": "The detailed technology stack has not yet been finalized."
+    }
+  },
+
+  "certifications": [
+    {
+      "name": "Google Cloud Certified Professional Data Engineer",
+      "issuer": "Google",
+      "issued": "April 2025",
+      "expires": "April 2027"
+    },
+    {
+      "name": "Professional Machine Learning Engineer Certification",
+      "issuer": "Google",
+      "issued": "April 2025",
+      "expires": "April 2027"
+    },
+    {
+      "name": "GitHub Copilot",
+      "issuer": "Microsoft",
+      "issued": "August 2025",
+      "expires": "August 2027"
+    },
+    {
+      "name": "People Leadership Credential – Level 1",
+      "issuer": "Accenture",
+      "issued": "February 2025"
+    },
+    {
+      "name": "Microsoft Technology Associate (MTA)",
+      "issuer": "Microsoft",
+      "issued": "June 2022"
+    }
+  ],
+
+  "leadership": {
+    "ieee": "Led a team of 8 members as Newsletter and Reporting Team Lead for IEEE activities during college.",
+    "professional_context": "At Accenture, Yogish works within a larger CloudBees CI team and supports senior team members during platform operations, upgrades, troubleshooting and implementation activities."
+  },
+
+  "strengths": [
+    "Attention to detail",
+    "In-depth understanding of technical subjects",
+    "Teamwork",
+    "Critical thinking",
+    "Communication skills"
+  ],
+
+  "development_areas": [
+    "Improving technical ability to develop more detailed and production-oriented products.",
+    "Improving client communication.",
+    "Expanding practical Agentic AI development skills."
+  ],
+
+  "learning_style": {
+    "approach": "Yogish prefers to understand the intended use, purpose and limitations of a technology before building with it.",
+    "preferred_methods": [
+      "Official documentation",
+      "Open-source projects",
+      "Hands-on experimentation",
+      "Building projects",
+      "Using AI models as pair-programming assistants"
+    ],
+    "preference": "He prefers understanding and building rather than primarily watching tutorials and reproducing examples."
+  },
+
+  "personal_interests": [
+    "Chess",
+    "Comics",
+    "Light novels",
+    "Movies across a wide range of genres",
+    "AAA video games",
+    "Spider-Man games",
+    "Grand Theft Auto: Vice City"
+  ],
+
+  "public_contact_information": {
+    "note": "Keep this information outside the public RAG knowledge base unless intentionally exposed through the portfolio.",
+    "linkedin": "www.linkedin.com/in/yogishreddy",
+    "email" : "dyogishreddy@gmail.com",
+    "github": "www.github.com/yogishreddy",
+    "microsoft_profile": "learn.microsoft.com/en-us/users/yogishreddy"
+  }
+}
