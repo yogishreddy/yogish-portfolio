@@ -40,6 +40,7 @@ for document in documents:
         {
             "id": document["id"],
             "title": document["title"],
+            "category": document["category"],
             "content": document["content"],
             "embedding": embedding,
         }

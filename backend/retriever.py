@@ -1,3 +1,35 @@
+def infer_query_category(query):
+    query = query.lower()
+
+    if any(keyword in query for keyword in [
+        "final year project",
+        "college project",
+        "projects",
+        "project",
+        "built",
+        "building",
+    ]):
+        return "project"
+
+    if any(keyword in query for keyword in [
+        "internship",
+        "intern",
+        "during internship",
+    ]):
+        return "internship"
+
+    if any(keyword in query for keyword in [
+        "experience",
+        "worked",
+        "work at accenture",
+        "do at accenture",
+        "responsibilities",
+        "role at accenture",
+    ]):
+        return "experience"
+
+    return None
+
 import json
 import math
 import os
@@ -5,6 +37,8 @@ import os
 from dotenv import load_dotenv
 from google import genai
 from google.genai import types
+
+
 
 
 load_dotenv()
@@ -77,7 +111,7 @@ def embed_query(query):
 # --------------------------------------------------
 
 def retrieve(query, top_k=3):
-
+    query_category = infer_query_category(query)
     query_embedding = embed_query(query)
 
     results = []
@@ -86,8 +120,10 @@ def retrieve(query, top_k=3):
 
         similarity = cosine_similarity(
             query_embedding,
-            document["embedding"],
-        )
+            document["embedding"]        )
+        score = similarity
+        if query_category and document["category"] == query_category:
+            score +=0.05
 
         results.append(
             {
@@ -95,11 +131,12 @@ def retrieve(query, top_k=3):
                 "title": document["title"],
                 "content": document["content"],
                 "similarity": similarity,
+                "score": score,
             }
         )
 
     results.sort(
-        key=lambda item: item["similarity"],
+        key=lambda item: item["score"],
         reverse=True,
     )
 
@@ -112,7 +149,7 @@ def retrieve(query, top_k=3):
 
 if __name__ == "__main__":
 
-    query = "Yogish college projects completed"
+    query = "What AI projects is Yogish currently building?"
 
     results = retrieve(query)
 

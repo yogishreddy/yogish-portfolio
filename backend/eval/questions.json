@@ -1,0 +1,75 @@
+[
+   { "question": "What is Yogish's current experience?",
+   "expected_documents":[
+    "experience-accenture"  ]
+},
+
+{
+  "question": "What cybersecurity internship did Yogish complete?",
+  "expected_documents": [
+    "supraja-internship"
+  ]
+
+},
+{
+  "question": "What AI projects is Yogish currently building?",
+  "expected_documents": [
+    "project-ai-portfolio",
+    "project-ai-sre"
+  ]
+},
+{
+    "question": "What did Yogish study for his bachelor's degree?",
+    "expected_documents": [
+      "education"
+    ]
+  },
+  {
+    "question": "What does Yogish do at Accenture?",
+    "expected_documents": [
+      "experience-accenture",
+      "accenture-responsibilities"
+    ]
+  },
+  {
+    "question": "What are Yogish's projects?",
+    "expected_documents":[
+        "project-ai-portfolio",
+        "project-ai-sre",
+        "project-graphiccore",
+        "college-website",
+        "college-project-grey-wolf"
+    ]
+  },
+  {
+  "question": "What was Yogish's final year project?",
+  "expected_documents": [
+    "college-project-grey-wolf"
+  ]
+},
+{
+    "question":"What did Yogish do during his cybersecurity internship?",
+    "expected_documents":[
+        "supraja-internship"
+    ]
+},
+{
+    "question":"How does Yogish's AI portfolio assistant work?",
+    "expected_documents":[
+        "project-ai-portfolio"
+    ]
+},
+{
+    "question":"What certifications does Yogish have?",
+    "expected_documents":[
+        "certifications"
+    ]
+},
+{
+    "question":"What Jenkins and CloudBees CI work does Yogish do?",
+    "expected_documents":[
+        "experience-accenture",
+        "accenture-responsibilities"
+    ]
+}
+]

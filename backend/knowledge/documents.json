@@ -2,111 +2,133 @@
   {
     "id": "profile",
     "title": "Yogish Profile",
-    "content": "Yogish Reddy Dwarampudi is a Cloud and DevOps Engineer currently working as an Associate Software Engineer at Accenture. His professional experience focuses on Cloud infrastructure, DevOps, CI/CD platforms and automation, with experience in Jenkins, CloudBees CI, AWS, Docker and Kubernetes/EKS. His current personal technical focus is expanding his Cloud and DevOps foundation into AI Engineering and Agentic AI. He is interested in building practical products that solve problems and provide users with greater convenience and support."
+    "category": "profile",
+    "content": "Yogish Reddy Dwarampudi is a Cloud and DevSecOps Engineer currently working at Accenture as an Associate Software Engineer. He has 2+ years of overall professional experience at Accenture. He joined Accenture in September 2024 and initially underwent stream training in AWS Data Engineering before joining the CloudBees CI / Jenkins project in May 2025. His current professional experience focuses on enterprise CloudBees CI / Jenkins platforms, CI/CD operations, cloud infrastructure, DevSecOps, automation and platform stability. His technologies include Jenkins, CloudBees CI, AWS, Docker, Kubernetes/EKS, GitHub, Python and Bash. His current personal technical focus is expanding his Cloud and DevOps foundation into AI Engineering and Agentic AI."
   },
   {
     "id": "career-direction",
     "title": "Career Direction",
+    "category": "career",
     "content": "Yogish does not consider AI a move away from Cloud and DevOps. He wants to build on his existing Cloud knowledge to create more advanced products using AI and Agentic AI. His current goal is to build systems where a user can provide a single input and an agentic system can complete the intended task with minimal manual work. His long-term goal is to become an engineer who can architect products at a high level, quickly develop an MVP, clearly communicate architecture and capabilities, evaluate security considerations and limitations, and build products capable of serving large numbers of users."
   },
   {
     "id": "education",
     "title": "Education",
+    "category": "education",
     "content": "Yogish completed a Bachelor of Technology in Computer Science from NBKR Institute of Science and Technology (NBKRIST), Nellore, from 2020 to 2024, with a final grade of 8.0 out of 10. He completed his MPC higher secondary education at Narayana Junior College, Nellore, from 2018 to 2020."
   },
   {
-  "id": "experience-accenture",
-  "title": "Accenture - Associate Software Engineer - CloudBees CI / Jenkins",
-  "content": "Company: Accenture. Role: Associate Software Engineer. Joined: September 2024. Current area: CloudBees CI / Jenkins platform. Yogish works as part of a team supporting a large Jenkins platform across approximately 9 lines of business, with 300+ controllers and around 3,000 builds per day. The environment includes managed controllers, Operations Center, static agents running on Windows and Linux VMs, and ephemeral agents provisioned through Kubernetes/EKS using Docker images. Responsibilities and hands-on work include supporting users with Jenkins pipeline troubleshooting, agent selection and connectivity issues, pod-agent memory issues, credentials for GitHub and third-party services such as SonarQube, managed-controller access processes, plugin-version updates, platform-upgrade activities and validation. Platform upgrades are performed quarterly and involve components including Operations Center, agents, plugins and managed controllers. Yogish also uses Jenkins automation jobs for operational reporting and searching build console output for specific information. He participates in risk remediation for software vulnerabilities on Windows and Linux build VMs, validates and updates software where required, and works with Docker base and custom images including quarterly image updates and removal of vulnerable older versions. The team monitors EKS workloads using Datadog and works with AWS backup and restore capabilities including Cloud Native Restore. Other operational activities include license recovery by identifying inactive users and access that can be revoked, and cleanup of inactive controllers and jobs. Yogish uses Jira to track stories and tasks and ServiceNow for service requests and incidents. His work is performed as part of the CloudBees CI team, with senior engineers providing guidance on larger implementations."
-},
+    "id": "experience-accenture",
+    "title": "Accenture - CloudBees CI / Jenkins Platform - DevSecOps Engineer",
+    "category": "experience",
+    "content": "Company: Accenture. Overall employment: September 2024 – Present. Role: Associate Software Engineer. After joining Accenture in September 2024, Yogish initially underwent stream training in AWS Data Engineering. He joined the CloudBees CI / Jenkins project in May 2025, where his current project experience is positioned as CloudBees CI / Jenkins Platform DevSecOps Engineer. He supports an enterprise Jenkins environment across approximately 9 lines of business, with 300+ controllers and around 3,000 builds per day. The environment includes managed controllers, Operations Center, static agents running on Windows and Linux VMs, and ephemeral agents provisioned through Kubernetes/EKS using Docker images. His work includes managing and troubleshooting Jenkins controllers, agents and CI/CD pipelines; resolving failed builds, agent connectivity issues, workspace problems and pipeline execution issues; and working with static Windows agents and WebSocket-based agent connectivity. He analyzes Jenkins logs, build failures and infrastructure issues to identify root causes and restore services. He participates in platform upgrade activities for EKS and quarterly CloudBees CI / Jenkins platform upgrades involving Operations Center, agents, plugins and managed controllers. He performs vulnerability remediation on Jenkins agents and Windows/Linux build VMs, validates and updates software where required, and performs software installations on Jenkins agents. He works with Docker base and custom images, including quarterly image updates and removal of vulnerable older versions. He supports GitHub/Jenkins CI integration, including build triggers and pipeline execution, and works with GitHub and third-party credentials such as SonarQube. He resolves Jenkins access issues and guides users through access processes. He participates in incident and problem resolution and collaborates with application, infrastructure and development teams to resolve CI/CD issues and maintain SLAs. He uses Jenkins automation jobs for operational reporting and searching build console output across controllers for specific information. He creates technical documentation and operational procedures and contributes to automation initiatives intended to reduce manual effort. The team monitors EKS workloads using Datadog and works with AWS backup and restore capabilities including Cloud Native Restore. Other operational activities include license recovery by identifying inactive users and access that can be revoked, and cleanup of inactive controllers and jobs. He uses Jira to track stories and tasks and ServiceNow for service requests and incidents. His work is performed as part of the CloudBees CI team, with senior engineers providing guidance on larger implementations."
+  },
   {
     "id": "accenture-responsibilities",
     "title": "Accenture Responsibilities",
-    "content": "As part of the CloudBees CI team, Yogish helps users troubleshoot Jenkins pipeline issues and supports successful pipeline execution. His troubleshooting exposure includes agent selection and connectivity issues, memory-related problems while creating Kubernetes pod agents, adding credentials for GitHub and third-party services such as SonarQube, and managed controller access and access-control processes. He participates in platform upgrades, including quarterly upgrades involving Operations Center, agents, plugins, CJOC and managed controllers. He performs validation activities such as validating agent connectivity and plugin versions during upgrades. He also participates in security risk remediation for Windows and Linux virtual machines used by Jenkins users, including remediation of vulnerabilities in installed software. Yogish uses Jenkins automation jobs for tasks such as searching build console output across CJOC and managed controllers for specific keywords and publishing the resulting data or reports. He works with Docker images used by ephemeral Jenkins agents, including quarterly image updates and removal of older vulnerable versions. He monitors Kubernetes pods in EKS with Datadog and participates in AWS EKS backup and restore activities using cloud-native restore methods. He also works on license recovery activities by identifying inactive users whose platform access can be revoked and helps with cleanup of inactive controllers and jobs. He uses Jira to track stories and tasks and ServiceNow to work with service requests and incidents. He has supported and participated in these activities while working as an Associate Software Engineer, with larger implementations often handled with guidance from senior team members."
+    "category": "experience",
+    "content": "As part of the CloudBees CI / Jenkins team, Yogish supports enterprise CI/CD pipeline operations and platform stability. His responsibilities include Jenkins controller, agent and pipeline troubleshooting; failed build analysis; agent selection and connectivity troubleshooting; workspace and pipeline execution issues; static Windows/Linux agent support; WebSocket-based agent connectivity; and Kubernetes pod-agent memory troubleshooting. He analyzes Jenkins logs, build failures and infrastructure issues to identify root causes. He supports GitHub/Jenkins CI integration, including build triggers and pipeline execution, and works with credentials for GitHub and third-party services such as SonarQube. He supports Jenkins access and managed-controller access processes and guides users on access. He participates in quarterly platform upgrades involving Operations Center, agents, plugins, CJOC and managed controllers, including validation of agent connectivity and plugin versions. He participates in EKS platform upgrade activities. He carries out vulnerability remediation on Windows and Linux Jenkins agent VMs, performs required software installations, and validates software updates. He works with Docker images used by ephemeral Jenkins agents, including quarterly image updates and removal of older vulnerable versions. He monitors Kubernetes pods in EKS using Datadog and participates in AWS EKS backup and restore activities using cloud-native restore methods. He uses Jenkins automation jobs for tasks such as searching build console output across CJOC and managed controllers for specific keywords and publishing resulting data or reports. He contributes to technical documentation, operational procedures and automation initiatives that reduce manual effort. He participates in incident and problem resolution, collaborates with application, infrastructure and development teams, and helps maintain SLAs. He also works on license recovery activities by identifying inactive users whose platform access can be revoked and helps with cleanup of inactive controllers and jobs. He uses Jira to track stories and tasks and ServiceNow to work with service requests and incidents. He has supported and participated in these activities as an Associate Software Engineer, with larger implementations often handled with guidance from senior team members."
   },
   {
     "id": "skills-cloud",
     "title": "Cloud Skills",
-    "content": "Yogish has strong professional experience with AWS through his CloudBees CI work. His AWS-related technologies and responsibilities include Amazon EC2, Amazon EKS, Amazon ECR, AWS Systems Manager, AWS infrastructure, Kubernetes workloads, Docker-based workloads, and AWS EKS backup and restore activities. He also has personal learning and project experience with Google Cloud Platform and related cloud technologies."
+    "category": "skills",
+    "content": "Yogish has strong professional experience with AWS through his CloudBees CI work. His AWS-related technologies and responsibilities include Amazon EC2, Amazon EKS, Amazon ECR, AWS Systems Manager, AWS infrastructure, Kubernetes workloads, Docker-based workloads, and AWS EKS backup and restore activities. He also has personal learning and project experience with Google Cloud Platform and related cloud technologies. He initially underwent AWS Data Engineering stream training after joining Accenture."
   },
   {
     "id": "skills-devops",
-    "title": "DevOps Skills",
-    "content": "Yogish has strong professional DevOps experience with Jenkins, CloudBees CI, CI/CD, Docker, Kubernetes, EKS and GitHub. His professional work includes Jenkins configuration and troubleshooting, managed controllers, agents, plugin upgrades, platform upgrades, CI/CD automation, Docker image management, Kubernetes-based ephemeral agents, security remediation and platform operations. Terraform and Helm are technologies he is currently working with. Ansible is not part of his current skill set."
+    "title": "DevOps and DevSecOps Skills",
+    "category": "skills",
+    "content": "Yogish has strong professional DevOps and DevSecOps experience with Jenkins, CloudBees CI, CI/CD, Docker, Kubernetes, EKS and GitHub. His professional work includes Jenkins configuration and troubleshooting, controller and agent management, CI/CD pipeline support, build and deployment troubleshooting, managed controllers, agents, plugin upgrades, platform upgrades, CI/CD automation, Docker image management, Kubernetes-based ephemeral agents, security remediation, monitoring and log analysis, incident and problem resolution, and platform operations. He has exposure to GitHub/Jenkins CI integration, build triggers, REST APIs, and automation/process improvement. Terraform and Helm are technologies he is currently working with. Ansible is not part of his current skill set."
   },
   {
     "id": "skills-programming",
-    "title": "Programming Skills",
-    "content": "Yogish considers Python and Bash strong professional skills. Java is at a basic professional level. TypeScript, React and other remaining development technologies are currently at a basic or learning level. He also has academic project experience with PHP and MySQL."
+    "title": "Programming and Scripting Skills",
+    "category": "skills",
+    "content": "Yogish considers Python and Bash strong professional skills. Java is at a basic professional level. TypeScript, React and other remaining development technologies are currently at a basic or learning level. He also has academic project experience with PHP and MySQL. His professional technical work includes scripting and automation for CI/CD and platform operations."
   },
   {
     "id": "skills-ai",
     "title": "AI Skills",
+    "category": "skills",
     "content": "Yogish is personally learning and building with LLMs, RAG, LangGraph, Agentic AI, Gemini APIs, Gemini embeddings, Gemini Live and AI application development. His AI work is currently focused on personal projects and learning rather than professional production experience. He is interested in using AI to build practical products and agentic systems that can complete tasks from user input."
   },
   {
     "id": "skills-security",
     "title": "Security Background",
-    "content": "Yogish has a cybersecurity learning and internship background. His exposure includes ethical hacking, penetration testing, black-box testing, Kali Linux virtual machines, Bash, Windows PowerShell, Python scripts, cryptography, OWASP concepts, Nmap, Metasploit Framework, Burp Suite and Wireshark. His cybersecurity knowledge is primarily from his internship, college activities and personal learning."
+    "category": "skills",
+    "content": "Yogish has a cybersecurity learning and internship background. His exposure includes ethical hacking, penetration testing, black-box testing, Kali Linux virtual machines, Bash, Windows PowerShell, Python scripts, cryptography, OWASP concepts, Nmap, Metasploit Framework, Burp Suite and Wireshark. His current professional DevSecOps exposure also includes vulnerability remediation on Jenkins build VMs and software validation. His cybersecurity knowledge is primarily from his internship, college activities, professional security remediation work and personal learning."
   },
   {
     "id": "supraja-internship",
     "title": "Supraja Technologies Cybersecurity Internship",
+    "category": "internship",
     "content": "Yogish completed an 8-week Cybersecurity Internship at Supraja Technologies. He was selected for the internship after participating in an 8-hour Capture the Flag competition held on the final day of a three-day cybersecurity event that he helped organize through his IEEE team during college. During the internship he gained hands-on exposure to ethical hacking and security testing, including penetration testing and black-box testing. He worked with Kali Linux virtual machines and tools including Nmap, Metasploit Framework, Burp Suite and Wireshark, along with Bash, Windows PowerShell, Python scripts, cryptography and OWASP concepts."
   },
   {
     "id": "ieee-experience",
     "title": "IEEE Experience",
+    "category": "leadership",
     "content": "Yogish was involved with IEEE for three years during college and served as the Newsletter and Reporting Team Lead, leading a team of 8 members. His responsibilities included documenting technical papers and news, preparing content related to IEEE activities, reporting on events and helping organize events in coordination with other student and team leads. His IEEE team also helped organize a three-day cybersecurity event that included an 8-hour Capture the Flag competition on the final day."
   },
   {
     "id": "student-activities",
     "title": "Student Developer Activities",
+    "category": "activities",
     "content": "Yogish participated in a student developer club that provided students with opportunities to attend technology programs and company-hosted events. Through the club, he attended events including a full-day Microsoft event at the World Trade Center in Chennai and another Microsoft AI-focused event in Bengaluru. These activities provided exposure to technology discussions and technology-company environments. His involvement was primarily as a student participant rather than an organizer."
   },
   {
-  "id": "college-project-grey-wolf",
-  "title": "College Project - Grey Wolf Algorithm for Wireless Sensor Networking - Python",
-  "content": "Project: Grey Wolf Algorithm for Wireless Sensor Networking. Type: B.Tech Computer Science college team project. Status: Completed. Team size: 4 students. Objective: Use the Grey Wolf Optimization algorithm to find an efficient path through wireless sensors to reach a receiver, with the goal of reducing latency and cost and improving response time. The approach can avoid inactive or damaged sensors and select an available active sensor path. Yogish's contribution: developed the Python implementation of the Grey Wolf Algorithm. Technology: Python. Tool: Network simulator. The project was developed and tested as a college project."
-},
+    "id": "college-project-grey-wolf",
+    "title": "College Project - Grey Wolf Algorithm for Wireless Sensor Networking - Python",
+    "category": "project",
+    "content": "Project: Grey Wolf Algorithm for Wireless Sensor Networking. Type: B.Tech Computer Science college team project. Status: Completed. This was Yogish's final-year project. Team size: 4 students. Objective: Use the Grey Wolf Optimization algorithm to find an efficient path through wireless sensors to reach a receiver, with the goal of reducing latency and cost and improving response time. The approach can avoid inactive or damaged sensors and select an available active sensor path. Yogish's contribution: developed the Python implementation of the Grey Wolf Algorithm. Technology: Python. Tool: Network simulator. The project was developed and tested as a college project."
+  },
   {
-  "id": "college-website",
-  "title": "College Website - PHP, MySQL, Student and Parent Portal",
-  "content": "Project: College Website. Type: College team project. Status: Completed. Purpose: A student and parent portal where authenticated users could access academic and fee-related information. Technologies: PHP and MySQL. Yogish's contribution: worked on the backend used to fetch student records, grades and marks after users logged in with credentials. Features included student details, current academic year, branch information, mid-semester marks, semester marks, semester balance and fee-related information. The project used sample data rather than the college's complete production database. The portal supported both students and parents."
-},
+    "id": "college-website",
+    "title": "College Website - PHP, MySQL, Student and Parent Portal",
+    "category": "project",
+    "content": "Project: College Website. Type: College team project. Status: Completed. Purpose: A student and parent portal where authenticated users could access academic and fee-related information. Technologies: PHP and MySQL. Yogish's contribution: worked on the backend used to fetch student records, grades and marks after users logged in with credentials. Features included student details, current academic year, branch information, mid-semester marks, semester marks, semester balance and fee-related information. The project used sample data rather than the college's complete production database. The portal supported both students and parents."
+  },
   {
-  "id": "project-ai-portfolio",
-  "title": "AI Portfolio Agent - Next.js, FastAPI, Gemini, RAG",
-  "content": "Project: AI Portfolio Agent. Type: Personal AI project. Status: Actively evolving production MVP. Purpose: An AI-native personal portfolio that answers questions about Yogish's experience, skills, projects and technical work using grounded personal knowledge. Yogish built and is continuously developing the project. Frontend: Next.js. Backend: FastAPI. AI: Gemini APIs and Gemini embeddings. RAG implementation: knowledge base, document embeddings, cosine-similarity retrieval and retrieved-source information. Additional implementation: conversation history, query rewriting for follow-up questions and streaming responses. Deployment: backend deployed on Render and project maintained through GitHub. Current development includes improving the knowledge base and exploring Gemini Live and voice interaction. The project is actively evolving and is not considered fully completed."
-},
+    "id": "project-ai-portfolio",
+    "title": "AI Portfolio Agent - Next.js, FastAPI, Gemini, RAG",
+    "category": "project",
+    "content": "Project: AI Portfolio Agent. Type: Personal AI project. Status: Actively evolving production MVP. Purpose: An AI-native personal portfolio that answers questions about Yogish's experience, skills, projects and technical work using grounded personal knowledge. Yogish built and is continuously developing the project. Frontend: Next.js. Backend: FastAPI. AI: Gemini APIs and Gemini embeddings. RAG implementation: knowledge base, document embeddings, cosine-similarity retrieval and retrieved-source information. Additional implementation: conversation history, query rewriting for follow-up questions and streaming responses. Deployment: backend deployed on Render and project maintained through GitHub. Current development includes improving the knowledge base and exploring Gemini Live and voice interaction. The project is actively evolving and is not considered fully completed."
+  },
   {
-  "id": "project-ai-sre",
-  "title": "AI SRE Platform - Agentic AI, Jenkins, AWS, Kubernetes",
-  "content": "Project: AI SRE Platform. Type: Personal Agentic AI project. Status: Building / early development. Purpose: Explore an agentic AI system for CI/CD and infrastructure incident investigation. Planned capabilities include investigating CI/CD incidents, analyzing failures, gathering evidence and eventually assisting with safe remediation. Current implementation: Yogish has created a local Jenkins environment, tested Jenkins builds, experimented with Docker images and performed SonarQube security testing. The AI agent itself has not yet been implemented. Planned technologies include LangGraph, RAG, AWS and Kubernetes; these technologies have not yet been implemented as part of the AI SRE agent. The project is currently focused on establishing the engineering environment and exploring the architecture."
-},
+    "id": "project-ai-sre",
+    "title": "AI SRE Platform - Agentic AI, Jenkins, AWS, Kubernetes",
+    "category": "project",
+    "content": "Project: AI SRE Platform. Type: Personal Agentic AI project. Status: Building / early development. Purpose: Explore an agentic AI system for CI/CD and infrastructure incident investigation. Planned capabilities include investigating CI/CD incidents, analyzing failures, gathering evidence and eventually assisting with safe remediation. Current implementation: Yogish has created a local Jenkins environment, tested Jenkins builds, experimented with Docker images and performed SonarQube security testing. The AI agent itself has not yet been implemented. Planned technologies include LangGraph, RAG, AWS and Kubernetes; these technologies have not yet been implemented as part of the AI SRE agent. The project is currently focused on establishing the engineering environment and exploring the architecture."
+  },
   {
     "id": "project-graphiccore",
     "title": "GraphicCore AI",
+    "category": "project",
     "content": "GraphicCore AI is a conceptual AI-powered entertainment discovery platform. The idea is to understand user input and provide personalized recommendations and responses based on what the user is looking for. The planned experience may support both text and voice interaction. The project is currently in the concept and exploration stage, and its detailed technology stack has not yet been finalized."
   },
   {
     "id": "certifications",
     "title": "Certifications",
+    "category": "certification",
     "content": "Yogish's certifications include Google Cloud Certified Professional Data Engineer, issued April 2025 and valid until April 2027; Professional Machine Learning Engineer Certification from Google, issued April 2025 and valid until April 2027; GitHub Copilot certification from Microsoft, issued August 2025 and valid until August 2027; People Leadership Credential – Level 1 from Accenture, issued February 2025; and Microsoft Technology Associate (MTA), issued June 2022."
   },
   {
     "id": "learning-style",
     "title": "Learning Style",
+    "category": "learning",
     "content": "Yogish prefers to understand the intended use, purpose and limitations of a technology before beginning implementation. He prefers hands-on learning and building projects rather than primarily following tutorials. His learning approach includes reading official documentation, exploring open-source projects, experimenting with implementations and using AI models as pair-programming assistants."
   },
   {
     "id": "strengths",
     "title": "Strengths and Development Areas",
+    "category": "strengths",
     "content": "Yogish considers attention to detail, in-depth understanding, teamwork, critical thinking and communication among his strengths. He is currently working on improving his technical ability to develop more detailed and well-engineered products and improving his client communication skills."
   },
   {
     "id": "personal-interests",
     "title": "Personal Interests",
+    "category": "interests",
     "content": "Yogish enjoys playing chess, reading comics and light novels, and playing AAA video games. Games he enjoys include Spider-Man and Grand Theft Auto: Vice City. He has a broad interest in movies across different genres as well as comics and light novels."
   }
 ]
