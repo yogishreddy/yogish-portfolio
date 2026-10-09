@@ -192,7 +192,16 @@ def chat(request: ChatRequest):
     top_k = 5 if is_broad_project_query else 3
 
     results = retrieve(search_query, top_k=top_k)
-
+    print(f"\nSearch query: {search_query}")
+    print(f"Broad project query: {is_broad_project_query}")
+    print(f"Requested top_k: {top_k}")
+    print("Before threshold:")
+    for result in results:
+        print(
+            result["id"],
+            f"similarity={result['similarity']:.3f}",
+            f"score={result['score']:.3f}",
+    )
 
     # --------------------------------------------------
     # Remove weak retrieval results
@@ -203,7 +212,9 @@ def chat(request: ChatRequest):
         for result in results
         if result["similarity"] >= 0.70
     ]
-
+    print("After threshold:")
+    for result in results:
+        print(result["id"], f"similarity={result['similarity']:.3f}")
 
     # --------------------------------------------------
     # Build knowledge context
