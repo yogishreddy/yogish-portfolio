@@ -28,6 +28,12 @@ def evaluate_question(question_data):
         document_id in expected_documents
         for document_id in retrieved_ids[:3]
     )
+    relevant_retrieved = sum(
+    document_id in expected_documents
+    for document_id in retrieved_ids[:3]
+)
+
+    recall_at_3 = relevant_retrieved / len(expected_documents)
 
     return {
         "question": question,
@@ -35,6 +41,7 @@ def evaluate_question(question_data):
         "retrieved_documents": retrieved_ids,
         "hit_at_1": hit_at_1,
         "hit_at_3": hit_at_3,
+        "recall_at_3": recall_at_3,
     }
 
 
@@ -58,6 +65,7 @@ def main():
 
         print(f"\nHit@1: {result['hit_at_1']}")
         print(f"Hit@3: {result['hit_at_3']}")
+        print(f"Recall@3: {result['recall_at_3']:.2f}")
         print("-" * 60)
 
 

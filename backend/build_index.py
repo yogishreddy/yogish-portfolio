@@ -25,15 +25,13 @@ index = []
 
 for document in documents:
     print(f"Embedding: {document['title']}")
-
     result = client.models.embed_content(
         model="gemini-embedding-2",
-        contents=document["content"],
-        config=types.EmbedContentConfig(
-            output_dimensionality=768
-        ),
-    )
+        contents=f"Title: {document['title']}\nCategory: {document['category']}\n\n{document['content']}",
+        config=types.EmbedContentConfig(output_dimensionality=768),
+)
 
+    
     embedding = result.embeddings[0].values
 
     index.append(

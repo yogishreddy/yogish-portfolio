@@ -8,7 +8,7 @@ from pydantic import BaseModel
 from dotenv import load_dotenv
 from google import genai
 
-from retriever import retrieve
+from retriever import retrieve,infer_query_category
 from query_rewriter import rewrite_query
 
 
@@ -181,10 +181,17 @@ def chat(request: ChatRequest):
     # Retrieve relevant portfolio knowledge
     # --------------------------------------------------
 
-    results = retrieve(
-        search_query,
-        top_k=3,
-    )
+    is_broad_project_query = (
+        infer_query_category(search_query) == "project"
+        and any(
+            phrase in search_query.lower()
+            for phrase in ["projects", "list of projects", "all projects"]
+        )
+)   
+
+    top_k = 5 if is_broad_project_query else 3
+
+    results = retrieve(search_query, top_k=top_k)
 
 
     # --------------------------------------------------

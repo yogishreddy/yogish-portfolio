@@ -123,13 +123,14 @@ def retrieve(query, top_k=3):
             document["embedding"]        )
         score = similarity
         if query_category and document["category"] == query_category:
-            score +=0.05
+            score +=0.10
 
         results.append(
             {
                 "id": document["id"],
                 "title": document["title"],
                 "content": document["content"],
+                "category": document["category"],
                 "similarity": similarity,
                 "score": score,
             }
